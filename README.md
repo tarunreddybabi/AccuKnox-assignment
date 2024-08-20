@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# accuKnox-assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a dynamic dashboard application built using React. The dashboard allows users to add, remove, and manage widgets within different categories like CSPM, CWPP, and Registry Scan. The UI is fully customizable, and the widgets are dynamically rendered based on the provided JSON structure.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+- Add and remove widgets within different categories.
+- Customize widget content and appearance.
+- Responsive design for both desktop and mobile views.
 
-### `npm start`
+## Prerequisites
+- Node.js (>= 14.x)
+- npm (>= 6.x) or yarn (>= 1.x)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. **Clone the repository**:
+   ```bash
+git clone
+cd accuKnox-assignment
+npm install
+# OR
+yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running the Application
 
-### `npm run build`
+1. **Start the development server**:
+   ```bash
+   npm start
+   # OR
+   yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your browser:
+Visit http://localhost:3000 to see the application in action.
+Copy code
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 7. Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```markdown
+## Project Structure
 
-### `npm run eject`
+├── public
+│   ├── index.html
+│   └── ...
+├── src
+│   ├── components
+│   │   ├── Dashboard.js
+│   │   ├── AddWidgetDrawer.js
+│   │   └── ...
+│   ├── store
+│   │   ├── dashboardSlice.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── README.md
+└── ...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 8. Usage Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```markdown
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Adding Widgets**: Click on the "Add Widget" button within any category to add a new widget.
+- **Removing Widgets**: Uncheck a widget from the list in the drawer to remove it from the dashboard.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
