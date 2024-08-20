@@ -18,7 +18,9 @@ This is a dynamic dashboard application built using React. The dashboard allows 
 1. **Clone the repository**:
    
 git clone https://github.com/tarunreddybabi/accuKnox-assignment.git
+
 cd accuKnox-assignment
+
 npm install
 # OR
 yarn install
